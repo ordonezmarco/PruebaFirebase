@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "260332227088",
+    "firebase_url": "https://pokedex-4a030.firebaseio.com",
+    "project_id": "pokedex-4a030",
+    "storage_bucket": "pokedex-4a030.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260332227088:android:1a84380624e46d7db85895",
+        "android_client_info": {
+          "package_name": "com.enginegroupsolutions.pruebafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260332227088-8au2saf3hlddpvqk3fu68c0q5mr980s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8PtcSxT2KnqpryJss_BLI3UyeBVBv0tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260332227088-8au2saf3hlddpvqk3fu68c0q5mr980s0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
