@@ -7,6 +7,36 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    
 
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button"
+        android:text="@string/send"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:onClick="WriteFirebase"
+        />
+    
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:gravity="center_horizontal"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimary"
+        />
+    
 </LinearLayout>
